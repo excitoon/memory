@@ -5,23 +5,23 @@ Approximate memory usage profiler.
 ## Usage
 
 ```
-time memory sleep 1
+memory 3 ~/ClickHouse
 ```
 
 Output:
 
 ```
-rss          0M      0M      0M      0M      0M      0M      0M      0M      0M      0M      0M
-vms         16M     16M     16M     16M     16M     16M     16M     16M     16M     16M     16M
-shared       0M      0M      0M      0M      0M      0M      0M      0M      0M      0M      0M
-text         0M      0M      0M      0M      0M      0M      0M      0M      0M      0M      0M
-lib          0M      0M      0M      0M      0M      0M      0M      0M      0M      0M      0M
-data         0M      0M      0M      0M      0M      0M      0M      0M      0M      0M      0M
-dirty        0M      0M      0M      0M      0M      0M      0M      0M      0M      0M      0M
+...
 
-real    0m1.081s
-user    0m0.127s
-sys     0m0.094s
+15037 directories, 199616 files
+
+rss          7M     10M     10M     10M     10M     11M     12M     12M     12M     13M     16M
+vms         25M     27M     27M     27M     27M     28M     29M     29M     29M     30M     32M
+shared       5M      5M      5M      5M      5M      5M      5M      5M      5M      5M      5M
+text         2M      2M      2M      2M      2M      2M      2M      2M      2M      2M      2M
+lib          0M      0M      0M      0M      0M      0M      0M      0M      0M      0M      0M
+data         3M      5M      5M      5M      5M      6M      6M      7M      7M      7M     10M
+dirty        0M      0M      0M      0M      0M      0M      0M      0M      0M      0M      0M
 ```
 
 ## Install

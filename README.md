@@ -1,5 +1,11 @@
 # `memory`
 
+[![Black](https://github.com/excitoon/memory/actions/workflows/black.yml/badge.svg)](https://github.com/excitoon/memory/actions/workflows/black.yml)
+[![Linux](https://github.com/excitoon/memory/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/excitoon/memory/actions/workflows/ubuntu.yml)
+[![OS X](https://github.com/excitoon/memory/actions/workflows/macos.yml/badge.svg)](https://github.com/excitoon/memory/actions/workflows/macos.yml)
+[![Windows](https://github.com/excitoon/memory/actions/workflows/windows.yml/badge.svg)](https://github.com/excitoon/memory/actions/workflows/windows.yml)
+[![PyPI](https://badge.fury.io/py/memory-py.svg)](https://badge.fury.io/py/memory-py)
+
 Approximate memory usage profiler.
 
 ## Usage
